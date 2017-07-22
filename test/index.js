@@ -15,7 +15,6 @@ let client;
 // Test setup
 
 test.before(t => {
-
     client = new Client(process.env.APP_ID, process.env.REST_API_KEY);
 });
 
